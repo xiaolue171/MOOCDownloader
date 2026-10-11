@@ -1,0 +1,33 @@
+MOOC Downloader 2.0.2 - Third-party components
+
+Original application code: MIT, Copyright (c) 2026 xiaolue171.
+See LICENSE. The MIT license does not relicense third-party components.
+
+Python / Tcl / Tk: PSF and Tcl/Tk licenses; texts included in licenses/.
+Requests: Apache-2.0, https://requests.readthedocs.io/
+pywebview: BSD-3-Clause, https://github.com/r0x0r/pywebview
+pythonnet: MIT, https://github.com/pythonnet/pythonnet
+m3u8: MIT, https://github.com/globocom/m3u8
+Additional dependency notices are in the licenses directory.
+PyInstaller bootloader: GPL with the PyInstaller bootloader exception;
+see licenses/pyinstaller-COPYING.txt.txt.
+
+FFmpeg is an external, unmodified program invoked through its command-line interface.
+Bundled binary: FFmpeg 9.0.1 essentials build, gyan.dev, GPL-3.0-or-later.
+The exact binary reports --enable-gpl --enable-version3 --enable-static.
+License text: licenses/FFmpeg-GPL-3.0.txt.
+Build release: https://github.com/GyanD/codexffmpeg/releases/tag/9.0.1
+FFmpeg source revision reported by that release:
+https://github.com/FFmpeg/FFmpeg/commit/bf1b838f2ab88b4f8fd83443325c782ea0e0f7fa
+Build distribution and source information: https://www.gyan.dev/ffmpeg/builds/
+Upstream source: https://ffmpeg.org/download.html
+FFmpeg licensing information: https://ffmpeg.org/legal.html
+Run bin/ffmpeg.exe -L and -buildconf (or _internal/bin/ffmpeg.exe) for the
+license and build configuration of this exact binary.
+The bundled FFmpeg is not developed by this application. No warranty is provided.
+The upstream FFmpeg source revision is not by itself a complete source bundle
+for all external libraries statically linked into the Gyan build. This package
+does not claim that such a complete corresponding-source bundle is included.
+
+Microsoft Edge WebView2 uses the installed system runtime; a browser engine is not
+included in this application package.
